@@ -1,0 +1,16 @@
+immagini carousel
+criptare password
+mettere classifica
+
+mettere informazioni
+sistemare bottoni in game.php
+
+sistemare bottoni lista utenti
+poter aggiungere studente da lista utenti
+poter modificare una sola informazione su lista utenti premendoci sopra
+poter ordinare le persone in base a quale campo clicco in lista utenti
+conferma prima dell'eliminazione definitiva dell'utente
+
+raggruppare messaggi errore richiamandoli da funzione
+
+fare il cazzo di gioco vero e proprio

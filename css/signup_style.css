@@ -1,0 +1,26 @@
+/* Hide all form-group by default: */
+.form-group-signup {
+    display: none;
+  }
+  
+  .step {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    background-color: #f7aa03;
+    opacity: 0.5;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #f7aa03;
+    opacity: 1;
+  }

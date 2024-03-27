@@ -1,0 +1,95 @@
+html,body {
+    height: 100%;
+    /*background-color:#2e2e2e;*/
+    background-color:#343a40;
+}
+
+#lista tr:first-child th:nth-child(2) {border-top-left-radius: 18px;}
+#lista tr:first-child th:nth-child(10) {border-top-right-radius: 18px;}
+#lista tr:last-child td:nth-child(2) {border-bottom-left-radius: 18px;}
+#lista tr:last-child td:nth-child(10) {border-bottom-right-radius: 18px;}
+
+#lista {
+    border-collapse: collapse;
+    width: 90%;
+    max-height: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#lista td, #lista th {
+    border: 1px solid #343a40;
+    padding: 12px;
+}
+
+#lista tr:nth-child(odd){background-color: #fdd681;}
+#lista tr:nth-child(even){background-color: #ffb26a;}
+#lista tr:hover {background-color: #f7aa03;}
+
+#lista th:first-child, td:first-child{background-color: #343a40;}
+#lista th:last-child, td:last-child{background-color: #343a40;}
+
+#lista th {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+.table-option {
+    color:red;
+}
+
+.box {
+    border-radius: 18px;
+    background-color:#f7aa03;
+    position: relative;
+}
+.box.menu{
+    width: 22rem;
+    height: 30rem;
+    top: 13%;
+    margin : auto;
+}
+
+.card-body.menu {
+    width: 22rem;
+    height: 14rem;
+}
+.card-body.logo {
+    height: 16rem;
+}
+.card-body.buttons-menu {
+    width: 100%;
+    height: 5rem;
+}
+
+.eye {
+    float: right;   
+    margin-right: 6px;
+    margin-top: -27.5px;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.modify-form {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+
+.box.main{
+    width: 84%;
+    height: 84%;
+    top: 5%;
+    right: 8%;
+    left: 8%;
+}
+
+.card-body.main {
+    width: 100%;
+    height: 100%;
+}
+*/
