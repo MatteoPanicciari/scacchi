@@ -1,6 +1,6 @@
 <?php
 session_start();
-//echo var_dump($_SESSION);
+// echo var_dump($_SESSION);
 //$_SESSION = array();
 if(isset($_SESSION['idUtente'])){
     header('location: game.php');
